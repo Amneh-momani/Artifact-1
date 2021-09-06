@@ -1,0 +1,58 @@
+body{
+    background: azure;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 25px;
+    margin: auto;
+    background: #00000033;
+    padding: 40px;
+}
+
+label{
+    margin: 17px;
+
+}
+input{
+    font-size: 25px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid;
+}
+
+input:hover{
+    font-size: 25px;
+    border: none;
+    background: white;
+    border-bottom: 2px solid red;
+}
+
+h1{
+    
+    color: aqua;
+    margin: 70px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+form input:last-child{
+    margin-top: 50px;
+    color: red;
+    background: black;
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+}
+
+form input:last-child:hover{
+    background: white;
+    border: none;
+}
